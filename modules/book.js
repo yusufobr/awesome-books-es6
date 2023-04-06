@@ -1,15 +1,6 @@
-/* eslint */
 const booksList = document.getElementById('books');
 
-export class Book {
-  constructor(title, author) {
-    this.title = title;
-    this.author = author;
-    this.id = Math.random();
-  }
-}
-
-export class Books {
+export default class Books {
   constructor() {
     this.books = [];
   }

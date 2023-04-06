@@ -1,4 +1,6 @@
-import { Book, Books } from './modules/book.js';
+/* eslint */
+import Book from './modules/theBook.js';
+import Books from './modules/book.js';
 import { DateTime } from './node_modules/luxon/src/luxon.js';
 import './modules/navigation.js';
 
