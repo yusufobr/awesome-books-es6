@@ -32,14 +32,14 @@
           <article id="books"></article>
         </div>
       </section>
-      <section id="add-new" class="">
+      <section id="add-new" class="hidden">
         <div class="container">
           <h2>Add new book</h2>
-          <div class="form">
+          <form class="form" id="form">
             <input type="text" id="title" placeholder="Title" required />
             <input type="text" id="author" placeholder="Author" required />
-            <button id="add-btn">Add</button>
-          </div>
+            <button type="submit" id="add-btn">Add</button>
+          </form>
         </div>
       </section>
       <section id="contact" class="hidden">
@@ -62,6 +62,8 @@
         <p>Copywrite</p>
       </div>
     </footer>
-    <script src="./index.js"></script>
+    <script type="module" src="./index.js"></script>
+    <!-- <script src="./modules/class.js"></script>
+    <script src="./modules/navigation.js"></script> -->
   </body>
 </html>
