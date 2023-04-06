@@ -1,5 +1,4 @@
-/* eslint-disable */
-
+/* eslint */
 const booksList = document.getElementById('books');
 
 export class Book {
